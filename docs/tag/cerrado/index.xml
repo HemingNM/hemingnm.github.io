@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cerrado | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/tag/cerrado/</link>
+      <atom:link href="https://hemingnm.github.io/tag/cerrado/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cerrado</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
+      <title>Cerrado</title>
+      <link>https://hemingnm.github.io/tag/cerrado/</link>
+    </image>
+    
+    <item>
+      <title>Desvendando o efeito das mudanças climáticas nos padrões de diversidade de anuros neotropicais</title>
+      <link>https://hemingnm.github.io/project/neotropical-anura/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/project/neotropical-anura/</guid>
+      <description>&lt;p&gt;As mudanças climáticas representam uma das principais ameaças à biodiversidade. Os impactos conhecidos desta ameaça incluem mudanças na área de distribuição das espécies, reestruturação das comunidades, mudanças fenológicas e, em casos mais extremos, a extinção de espécies que não podem migrar ou se adaptar a novas condições ambientais. Devido à tendência latitudinal de maior riqueza nos trópicos, esta região é propensa a apresentar as maiores taxas de perda de espécies no futuro. Portanto, prever as consequências das mudanças climáticas e as áreas que provavelmente serão mais afetadas nos neotrópicos torna-se uma prioridade para a conservação.&lt;/p&gt;
+&lt;p&gt;A eficácia da conservação da biodiversidade, no entanto, depende da preservação não apenas da riqueza taxonômica, mas também da diversidade de linhagens. Os anfíbios são um excelente grupo para abordar essas questões, visto que a maioria das espécies apresenta alta dependência de condições climáticas e limitada capacidade de dispersão. Além disso, as estreitas especializações ecológicas e fisiológicas dos anfíbios os tornam um dos grupos mais sensíveis às mudanças climáticas.&lt;/p&gt;
+&lt;p&gt;O objetivo deste projeto é avaliar como as mudanças climáticas futuras afetarão os padrões espaciais de riqueza e diversidade evolutiva de anuros neotropicais. Para isso, vamos modelar o nicho ecológico de cerca de 500 espécies de anuros para obter sua área de distribuição potencial no presente e no futuro (2050 e 2070), e então identificar os padrões espaciais de riqueza e diversidade evolutiva. Com base nos resultados obtidos em nosso projeto, será possível identificar regiões prioritárias que precisam ser conservadas desde já para garantir a persistência de linhagens de anfíbios restritas e evolutivamente únicas.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Atlantic Forest | Neander Marcel Heming</title>
-    <link>https://hemingnm.github.io/tag/atlantic-forest/</link>
-      <atom:link href="https://hemingnm.github.io/tag/atlantic-forest/index.xml" rel="self" type="application/rss+xml" />
-    <description>Atlantic Forest</description>
+    <title>birds | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/tag/birds/</link>
+      <atom:link href="https://hemingnm.github.io/tag/birds/index.xml" rel="self" type="application/rss+xml" />
+    <description>birds</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
-      <title>Atlantic Forest</title>
-      <link>https://hemingnm.github.io/tag/atlantic-forest/</link>
+      <title>birds</title>
+      <link>https://hemingnm.github.io/tag/birds/</link>
     </image>
     
     <item>
@@ -20,14 +20,6 @@
       <description>&lt;p&gt;A mudança climática está entre as maiores ameaças à biodiversidade e seu efeito sobre as espécies tem sido alvo de diversos estudos. As áreas climaticamente adequadas para a fauna e flora tendem a reduzir como consequência das mudanças climáticas, afetando a riqueza e a composição de espécies. A perda de espécies que realizam serviços importantes como polinização e dispersão de sementes pode comprometer o funcionamento dos ecossistemas.&lt;/p&gt;
 &lt;p&gt;O aumento da temperatura e a diminuição da umidade podem potencializar outros impactos não relacionados ao clima desencadeando processos de savanização e prejudicando principalmente as espécies dependentes de florestas. Neste estudo, utilizaremos as aves como modelo devido a sua sensibilidade às alterações ambientais, ao amplo banco de dados disponível e a sua importância ecológica para o funcionamento dos ecossistemas. Construiremos modelos de distribuição de espécies através do algoritmo MaxEnt para os cenários de referência, 2050 e 2070 a fim de investigar os efeitos climáticos sobre a riqueza e diversidade funcional de aves florestais da Mata Atlântica. Com os resultados obtidos esperamos melhorar o direcionamento das estratégias de conservação e/ou restauração a fim de mitigar os efeitos das mudanças climáticas sobre a comunidade de aves evitando seu empobrecimento e perda dos serviços prestados por elas dentro da Mata Atlântica.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Breeding in the gray-headed tody-flycatcher (Aves: Tyrannidae) with comments on geographical variation in reproductive traits within the genus {mph{Todirostrum}}</title>
-      <link>https://hemingnm.github.io/publication/2019-03-01_breeding_in_the_gray/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://hemingnm.github.io/publication/2019-03-01_breeding_in_the_gray/</guid>
-      <description></description>
     </item>
     
   </channel>

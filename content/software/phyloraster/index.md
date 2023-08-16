@@ -15,7 +15,7 @@ links:
   url: https://github.com/gabferreira/phyloraster
 summary: Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters.
 tags:
-- null models
+- evolutionary
 - spatial
 title: 'phyloraster: Evolutionary Diversity Metrics for Raster Data'
 url_code: ""

@@ -6,7 +6,10 @@ image:
   focal_point: Smart
 summary: Efeito das mudanças climáticas nos padrões de diversidade de anuros neotropicais.
 tags:
-- climate change, diversity, anura, neotropical
+- climate change
+- diversity
+- anura
+- Cerrado
 title: Desvendando o efeito das mudanças climáticas nos padrões de diversidade de anuros neotropicais
 url_code: ""
 url_pdf: ""

@@ -77,12 +77,14 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Climate Change
-      tag: Climate Change
-    - name: Birds
-      tag: Birds
-    - name: Frogs
-      tag: Frogs
+    - name: Atlantic Forest
+      tag: Atlantic Forest
+    - name: Cerrado
+      tag: Cerrado
+    - name: birds
+      tag: birds
+    - name: anura
+      tag: anura
     default_button_index: 0
     filters:
       folders:

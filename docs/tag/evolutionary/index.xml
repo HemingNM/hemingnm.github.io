@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>evolutionary | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/tag/evolutionary/</link>
+      <atom:link href="https://hemingnm.github.io/tag/evolutionary/index.xml" rel="self" type="application/rss+xml" />
+    <description>evolutionary</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
+      <title>evolutionary</title>
+      <link>https://hemingnm.github.io/tag/evolutionary/</link>
+    </image>
+    
+    <item>
+      <title>phyloraster: Evolutionary Diversity Metrics for Raster Data</title>
+      <link>https://hemingnm.github.io/software/phyloraster/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/software/phyloraster/</guid>
+      <description>&lt;p&gt;Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,10 @@ image:
   focal_point: Smart
 summary: Efeito das mudanças climáticas nos padrões de diversidade de aves florestais da Mata Atlântica.
 tags:
-- climate change, diversity, anura, neotropical
+- climate change
+- diversity
+- birds
+- Atlantic Forest
 title: Impacto dos cenários climáticos sobre grupos ecológicos de aves florestais da Mata Atlântica
 url_code: ""
 url_pdf: ""

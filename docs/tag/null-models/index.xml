@@ -13,15 +13,6 @@
     </image>
     
     <item>
-      <title>phyloraster: Evolutionary Diversity Metrics for Raster Data</title>
-      <link>https://hemingnm.github.io/software/phyloraster/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://hemingnm.github.io/software/phyloraster/</guid>
-      <description>&lt;p&gt;Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>SESraster: Raster Randomization for Null Hypothesis Testing</title>
       <link>https://hemingnm.github.io/software/sesraster/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>

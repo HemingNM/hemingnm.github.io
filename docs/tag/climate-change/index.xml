@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>diversity | Neander Marcel Heming</title>
-    <link>https://hemingnm.github.io/tag/diversity/</link>
-      <atom:link href="https://hemingnm.github.io/tag/diversity/index.xml" rel="self" type="application/rss+xml" />
-    <description>diversity</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <title>climate change | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/tag/climate-change/</link>
+      <atom:link href="https://hemingnm.github.io/tag/climate-change/index.xml" rel="self" type="application/rss+xml" />
+    <description>climate change</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
-      <title>diversity</title>
-      <link>https://hemingnm.github.io/tag/diversity/</link>
+      <title>climate change</title>
+      <link>https://hemingnm.github.io/tag/climate-change/</link>
     </image>
-    
-    <item>
-      <title>divraster: Diversity Metrics for Raster Data </title>
-      <link>https://hemingnm.github.io/software/divraster/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hemingnm.github.io/software/divraster/</guid>
-      <description>&lt;p&gt;Randomization of presence/absence species distribution raster data for calculating standardized effect sizes and testing null hypothesis. The randomization algorithms are based on classical algorithms for matrices (Gotelli 2000, doi:10.2307/177478) implemented for raster data.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Desvendando o efeito das mudanças climáticas nos padrões de diversidade de anuros neotropicais</title>
