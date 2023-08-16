@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spatial | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/tag/spatial/</link>
+      <atom:link href="https://hemingnm.github.io/tag/spatial/index.xml" rel="self" type="application/rss+xml" />
+    <description>spatial</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hemingnm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>spatial</title>
+      <link>https://hemingnm.github.io/tag/spatial/</link>
+    </image>
+    
+    <item>
+      <title>SESraster- Raster Randomization for Null Hypothesis Testing</title>
+      <link>https://hemingnm.github.io/software/sesraster/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/software/sesraster/</guid>
+      <description>&lt;p&gt;Randomization of presence/absence species distribution raster data for calculating standardized effect sizes and testing null hypothesis. The randomization algorithms are based on classical algorithms for matrices (Gotelli 2000, doi:10.2307/177478) implemented for raster data.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

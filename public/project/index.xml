@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Neander Marcel Heming</title>
+    <link>https://hemingnm.github.io/project/</link>
+      <atom:link href="https://hemingnm.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hemingnm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://hemingnm.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Desvendando o efeito das mudanças climáticas nos padrões de diversidade de anuros neotropicais</title>
+      <link>https://hemingnm.github.io/project/neotropical-anura/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/project/neotropical-anura/</guid>
+      <description>&lt;p&gt;As mudanças climáticas representam uma das principais ameaças à biodiversidade. Os impactos conhecidos desta ameaça incluem mudanças na área de distribuição das espécies, reestruturação das comunidades, mudanças fenológicas e, em casos mais extremos, a extinção de espécies que não podem migrar ou se adaptar a novas condições ambientais. Devido à tendência latitudinal de maior riqueza nos trópicos, esta região é propensa a apresentar as maiores taxas de perda de espécies no futuro. Portanto, prever as consequências das mudanças climáticas e as áreas que provavelmente serão mais afetadas nos neotrópicos torna-se uma prioridade para a conservação.&lt;/p&gt;
+&lt;p&gt;A eficácia da conservação da biodiversidade, no entanto, depende da preservação não apenas da riqueza taxonômica, mas também da diversidade de linhagens. Os anfíbios são um excelente grupo para abordar essas questões, visto que a maioria das espécies apresenta alta dependência de condições climáticas e limitada capacidade de dispersão. Além disso, as estreitas especializações ecológicas e fisiológicas dos anfíbios os tornam um dos grupos mais sensíveis às mudanças climáticas.&lt;/p&gt;
+&lt;p&gt;O objetivo deste projeto é avaliar como as mudanças climáticas futuras afetarão os padrões espaciais de riqueza e diversidade evolutiva de anuros neotropicais. Para isso, vamos modelar o nicho ecológico de cerca de 500 espécies de anuros para obter sua área de distribuição potencial no presente e no futuro (2050 e 2070), e então identificar os padrões espaciais de riqueza e diversidade evolutiva. Com base nos resultados obtidos em nosso projeto, será possível identificar regiões prioritárias que precisam ser conservadas desde já para garantir a persistência de linhagens de anfíbios restritas e evolutivamente únicas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Impacto dos cenários climáticos sobre grupos ecológicos de aves florestais da Mata Atlântica</title>
+      <link>https://hemingnm.github.io/project/atlantic-forest-birds/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/project/atlantic-forest-birds/</guid>
+      <description>&lt;p&gt;A mudança climática está entre as maiores ameaças à biodiversidade e seu efeito sobre as espécies tem sido alvo de diversos estudos. As áreas climaticamente adequadas para a fauna e flora tendem a reduzir como consequência das mudanças climáticas, afetando a riqueza e a composição de espécies. A perda de espécies que realizam serviços importantes como polinização e dispersão de sementes pode comprometer o funcionamento dos ecossistemas.&lt;/p&gt;
+&lt;p&gt;O aumento da temperatura e a diminuição da umidade podem potencializar outros impactos não relacionados ao clima desencadeando processos de savanização e prejudicando principalmente as espécies dependentes de florestas. Neste estudo, utilizaremos as aves como modelo devido a sua sensibilidade às alterações ambientais, ao amplo banco de dados disponível e a sua importância ecológica para o funcionamento dos ecossistemas. Construiremos modelos de distribuição de espécies através do algoritmo MaxEnt para os cenários de referência, 2050 e 2070 a fim de investigar os efeitos climáticos sobre a riqueza e diversidade funcional de aves florestais da Mata Atlântica. Com os resultados obtidos esperamos melhorar o direcionamento das estratégias de conservação e/ou restauração a fim de mitigar os efeitos das mudanças climáticas sobre a comunidade de aves evitando seu empobrecimento e perda dos serviços prestados por elas dentro da Mata Atlântica.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
