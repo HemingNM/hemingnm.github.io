@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5P4X6150G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q5P4X6150G', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -780,7 +819,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/mountains-of-southwestern-china/" >mountains of southwestern China</a>
+      <a href="/tag/breeding-biology/" >breeding biology</a>
     </div>
 
     
@@ -804,7 +843,7 @@
     
       
     
-    Jan 1, 2019
+    Mar 1, 2019
   </span>
   
 
@@ -854,7 +893,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/scaptonyx-fusicaudus/" >Scaptonyx fusicaudus</a>
+      <a href="/tag/life-history/" >life history</a>
     </div>
 
     
@@ -878,7 +917,7 @@
     
       
     
-    Jan 1, 2019
+    Mar 1, 2019
   </span>
   
 
@@ -928,7 +967,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/sky-islands/" >sky islands</a>
+      <a href="/tag/neotropical-birds/" >Neotropical birds</a>
     </div>
 
     
@@ -952,7 +991,7 @@
     
       
     
-    Jan 1, 2019
+    Mar 1, 2019
   </span>
   
 
@@ -1002,7 +1041,7 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/tag/species-delimitation/" >species delimitation</a>
+      <a href="/tag/reproductive-success/" >reproductive success</a>
     </div>
 
     
@@ -1026,7 +1065,7 @@
     
       
     
-    Jan 1, 2019
+    Mar 1, 2019
   </span>
   
 

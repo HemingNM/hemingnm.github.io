@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5P4X6150G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q5P4X6150G', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -322,7 +361,7 @@
 <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2019-01-01T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2019-10-01T00:00:00&#43;00:00" />
   
 
 
@@ -784,11 +823,11 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2019-01-01_cryptic_phylogeograp/" >Cryptic phylogeographic history sheds light on the generation of species diversity in sky-island mountains</a>
+      <a href="/publication/2019-10-01_cryptic_phylogeograp/" >Cryptic phylogeographic history sheds light on the generation of species diversity in sky‐island mountains</a>
     </div>
 
     
-    <a href="/publication/2019-01-01_cryptic_phylogeograp/"  class="summary-link">
+    <a href="/publication/2019-10-01_cryptic_phylogeograp/"  class="summary-link">
       <div class="article-style">
         Aim The aim of this study was to conduct comprehensive phylogeographic and demographic analyses to examine the degree to which …
       </div>
@@ -849,7 +888,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13664" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13664" target="_blank" rel="noopener">
   Source Document
 </a>
 

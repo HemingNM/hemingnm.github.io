@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5P4X6150G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q5P4X6150G', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -322,7 +361,7 @@
 <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2023-06-01T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-08-01T00:00:00&#43;00:00" />
   
 
 
@@ -784,6 +823,430 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2022-06-01_cabruca_agroforestry/" >Cabruca agroforestry systems reduce vulnerability of cacao plantations to climate change in southern Bahia</a>
+    </div>
+
+    
+    <a href="/publication/2022-06-01_cabruca_agroforestry/"  class="summary-link">
+      <div class="article-style">
+        In southern Bahia, Brazil’s traditional cacao region, cacao is mostly grown under the shade of thinned Atlantic Forest (known as …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Neander Marcel Heming</span>, <span >
+      Goetz Schroth</span>, <span >
+      Daniela C. Talora</span>, <span >
+      Deborah Faria</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s13593-022-00780-w" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2022-04-01_bamboo_shapes_the_fi/" >Bamboo shapes the fine-scale richness, abundance, and habitat use of small mammals in a forest fragment</a>
+    </div>
+
+    
+    <a href="/publication/2022-04-01_bamboo_shapes_the_fi/"  class="summary-link">
+      <div class="article-style">
+        A classic question in community ecology is how species coexist within a community. Studies have sought to understand how species …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Clariana Lima Andre</span>, <span >
+      Marina Correa Cortes</span>, <span >
+      Neander Marcel Heming</span>, <span >
+      Mauro Galetti</span>, <span >
+      Rafael Souza Cruz Alves</span>, <span >
+      Ricardo Siqueira Bovendorp</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s13364-021-00616-0" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2022-04-01_projected_responses_/" >Projected responses of Cerrado anurans to climate change are mediated by biogeographic character</a>
+    </div>
+
+    
+    <a href="/publication/2022-04-01_projected_responses_/"  class="summary-link">
+      <div class="article-style">
+        Climate change has affected the distribution and phenology of several species. However, due to narrow ecological and physiological …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Gaston Andres Fernandez Gine</span>, <span >
+      Danilo de Siqueira Fortunato</span>, <span >
+      Mirco Sole</span>, <span >
+      Neander Marcel Heming</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S2530064421000985" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2020-12-01_the_five_million_bir/" >The five million bird eggs in the world’s museum collections are an invaluable and underused resource</a>
+    </div>
+
+    
+    <a href="/publication/2020-12-01_the_five_million_bir/"  class="summary-link">
+      <div class="article-style">
+        The ~ 1.97 million egg sets (~ 5 million eggs) housed in museums have not been used in proportion to their availability. We highlight …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Miguel Angelo Marini</span>, <span >
+      Linnea Hall</span>, <span >
+      John Bates</span>, <span >
+      Frank D Steinheimer</span>, <span >
+      Robert McGowan</span>, <span >
+      Luis Fabio Silveira</span>, <span >
+      Dario A Lijtmaer</span>, <span >
+      Pablo Luis Tubaro</span>, <span >
+      Sergio Cordoba-Cordoba</span>, <span >
+      Anita Gamauf</span>, <span >
+      Harold F Greeney</span>, <span >
+      Manuel Schweizer</span>, <span >
+      Pepijn Kamminga</span>, <span >
+      Alice Cibois</span>, <span >
+      Laurent Vallotton</span>, <span >
+      Douglas Russell</span>, <span >
+      Scott K Robinson</span>, <span >
+      Paul R Sweet</span>, <span >
+      Sylke Frahnert</span>, <span >
+      Rene Corado</span>, <span >
+      Neander Marcel Heming</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://academic.oup.com/auk/article/doi/10.1093/auk/ukaa036/5875937" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2020-07-01_bottom-up_effect_a_r/" >Bottom-up effect: a rodent outbreak following the bamboo blooming in a Neotropical rainforest</a>
     </div>
 
@@ -1089,6 +1552,112 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2019-10-01_cryptic_phylogeograp/" >Cryptic phylogeographic history sheds light on the generation of species diversity in sky‐island mountains</a>
+    </div>
+
+    
+    <a href="/publication/2019-10-01_cryptic_phylogeograp/"  class="summary-link">
+      <div class="article-style">
+        Aim The aim of this study was to conduct comprehensive phylogeographic and demographic analyses to examine the degree to which …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Kai He</span>, <span >
+      Eliecer E. Gutierrez</span>, <span >
+      Neander M. Heming</span>, <span >
+      Klaus-Peter Koepfli</span>, <span >
+      Tao Wan</span>, <span >
+      Shuiwang He</span>, <span >
+      Wei Jin</span>, <span >
+      Shao-Ying Liu</span>, <span >
+      Xue-Long Jiang</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13664" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2019-09-01_climate_change_and_i/" >Climate change and its potential impact on the conservation of the Hoary Fox, {mph{Lycalopex vetulus}} (Mammalia: Canidae)</a>
     </div>
 
@@ -1259,515 +1828,6 @@
     
   
 <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1080/00222933.2019.1599458" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2019-01-01_cryptic_phylogeograp/" >Cryptic phylogeographic history sheds light on the generation of species diversity in sky-island mountains</a>
-    </div>
-
-    
-    <a href="/publication/2019-01-01_cryptic_phylogeograp/"  class="summary-link">
-      <div class="article-style">
-        Aim The aim of this study was to conduct comprehensive phylogeographic and demographic analyses to examine the degree to which …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Kai He</span>, <span >
-      Eliecer E. Gutierrez</span>, <span >
-      Neander M. Heming</span>, <span >
-      Klaus-Peter Koepfli</span>, <span >
-      Tao Wan</span>, <span >
-      Shuiwang He</span>, <span >
-      Wei Jin</span>, <span >
-      Shao-Ying Liu</span>, <span >
-      Xue-Long Jiang</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.13664" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2018-12-01_breeding_biology_of_/" >Breeding biology of the White-throated Kingbird ({mph{Tyrannus albogularis}}) in Brazil and Bolivia</a>
-    </div>
-
-    
-    <a href="/publication/2018-12-01_breeding_biology_of_/"  class="summary-link">
-      <div class="article-style">
-        The White-throated Kingbird (Tyrannus albogularis) is a widespread species in north-central South America, where it inhabits a variety …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Leonardo Esteves Lopes</span>, <span >
-      Neander Marcel Heming</span>, <span >
-      Alex E. Jahn</span>, <span >
-      Dalila De Fatima Ferreira</span>, <span >
-      Omar Barroso Putare</span>, <span >
-      Miguel Angelo Marini</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bioone.org/journals/The-Wilson-Journal-of-Ornithology/volume-130/issue-4/1559-4491.130.4.915/Breeding-biology-of-the-White-throated-Kingbird-Tyrannus-albogularis-in/10.1676/1559-4491.130.4.915.full" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2018-06-01_breeding_biology_of_/" >Breeding biology of Neotropical Accipitriformes: current knowledge and research priorities</a>
-    </div>
-
-    
-    <a href="/publication/2018-06-01_breeding_biology_of_/"  class="summary-link">
-      <div class="article-style">
-        Despite the key role that knowledge on breeding biology of Accipitriformes plays in their management and conservation, survey of the …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Julio Amaro Betto Monsalvo</span>, <span >
-      Neander Marcel Heming</span>, <span >
-      Miguel Angelo Marini</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/BF03544426" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2017-12-01_breeding_of_the_gree/" >Breeding of the Greenish Schiffornis ({mph{Schiffornis virescens}}, Tityridae)</a>
-    </div>
-
-    
-    <a href="/publication/2017-12-01_breeding_of_the_gree/"  class="summary-link">
-      <div class="article-style">
-        Like several Neotropical bird species, the breeding biology of the seven species of Schiffornis (Tityridae) is poorly known. Only three …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Miguel Angelo Marini</span>, <span >
-      Neander Marcel Heming</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/BF03544406" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2016-06-01_nest_and_eggs_of_the/" >Nest and eggs of the Streamer-tailed Tyrant ({mph{Gubernetes yetapa}}) from Brazil and Paraguay</a>
-    </div>
-
-    
-    <a href="/publication/2016-06-01_nest_and_eggs_of_the/"  class="summary-link">
-      <div class="article-style">
-        The breeding biology of approximately one third of all Fluvicolinae species is largely unknown and little is known about …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Neander M. Heming</span>, <span >
-      Daniel T. Gressler</span>, <span >
-      Douglas G. D. Russell</span>, <span >
-      Miguel A Marini</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bioone.org/journals/the-wilson-journal-of-ornithology/volume-128/issue-2/1559-4491-128.2.449/Nest-and-Eggs-of-the-Streamer-Tailed-Tyrant-Gubernetes-yetapa/10.1676/1559-4491-128.2.449.full" target="_blank" rel="noopener">
   Source Document
 </a>
 

@@ -33,6 +33,38 @@
     </item>
     
     <item>
+      <title>divraster: an R package to calculate taxonomic, functional and phylogenetic diversity from rasters</title>
+      <link>https://hemingnm.github.io/publication/2023-08-01_divraster_an_r_packa/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2023-08-01_divraster_an_r_packa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How land-use and bioclimatic factors are shaping small mammal communities in the Atlantic Forest?</title>
+      <link>https://hemingnm.github.io/publication-in-review/2023-08-01_how_land-use_and_bio/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication-in-review/2023-08-01_how_land-use_and_bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</title>
+      <link>https://hemingnm.github.io/publication-in-review/2023-08-01_phyloraster_an_r_pac/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication-in-review/2023-08-01_phyloraster_an_r_pac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two centuries of ornithological exploration of the Rio Doce basin, southeastern Brazil. Part I – A history of the landscape, its explorers, and their collections</title>
+      <link>https://hemingnm.github.io/publication/2023-08-01_two_centuries_of_orn/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2023-08-01_two_centuries_of_orn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>divraster: Diversity Metrics for Raster Data </title>
       <link>https://hemingnm.github.io/software/divraster/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
@@ -306,6 +338,14 @@
     </item>
     
     <item>
+      <title>Cryptic phylogeographic history sheds light on the generation of species diversity in sky‐island mountains</title>
+      <link>https://hemingnm.github.io/publication/2019-10-01_cryptic_phylogeograp/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2019-10-01_cryptic_phylogeograp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Climate change and its potential impact on the conservation of the Hoary Fox, {mph{Lycalopex vetulus}} (Mammalia: Canidae)</title>
       <link>https://hemingnm.github.io/publication/2019-09-01_climate_change_and_i/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
@@ -417,7 +457,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-564381279&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-294365817&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -427,7 +467,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-564381279&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-294365817&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -900,14 +940,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Cryptic phylogeographic history sheds light on the generation of species diversity in sky-island mountains</title>
-      <link>https://hemingnm.github.io/publication/2019-01-01_cryptic_phylogeograp/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hemingnm.github.io/publication/2019-01-01_cryptic_phylogeograp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Breeding biology of the White-throated Kingbird ({mph{Tyrannus albogularis}}) in Brazil and Bolivia</title>
       <link>https://hemingnm.github.io/publication/2018-12-01_breeding_biology_of_/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
@@ -957,9 +989,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Breeding biology research and data availability for New World Flycatchers</title>
-      <link>https://hemingnm.github.io/publication/2013-01-01_breeding_biology_res/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://hemingnm.github.io/publication/2013-01-01_breeding_biology_res/</guid>
+      <link>https://hemingnm.github.io/publication/2013-07-01_breeding_biology_res/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2013-07-01_breeding_biology_res/</guid>
       <description></description>
     </item>
     

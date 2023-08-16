@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5P4X6150G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q5P4X6150G', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -322,7 +361,7 @@
 <meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2023-06-01T00:00:00&#43;00:00" />
+    <meta property="og:updated_time" content="2023-08-01T00:00:00&#43;00:00" />
   
 
 
@@ -760,6 +799,319 @@
   
 
   
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2023-08-01_divraster_an_r_packa/" >divraster: an R package to calculate taxonomic, functional and phylogenetic diversity from rasters</a>
+    </div>
+
+    
+    <a href="/publication/2023-08-01_divraster_an_r_packa/"  class="summary-link">
+      <div class="article-style">
+        (Abstract not available)
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Flavio M. M. Mota</span>, <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Daniela C. Talora</span>, <span >
+      N. M. Heming</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication-in-review/2023-08-01_how_land-use_and_bio/" >How land-use and bioclimatic factors are shaping small mammal communities in the Atlantic Forest?</a>
+    </div>
+
+    
+    <a href="/publication-in-review/2023-08-01_how_land-use_and_bio/"  class="summary-link">
+      <div class="article-style">
+        Abstract not available
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      N. M. Heming</span>, <span >
+      Rebeca F. Sampaio</span>, <span >
+      Fernanda A. Gaiotto</span>, <span >
+      Ricardo S. Bovendorp</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 1, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication-in-review/2023-08-01_phyloraster_an_r_pac/" >phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</a>
+    </div>
+
+    
+    <a href="/publication-in-review/2023-08-01_phyloraster_an_r_pac/"  class="summary-link">
+      <div class="article-style">
+        Abstract not available
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Flavio M. M. Mota</span>, <span >
+      Daniela C. Talora</span>, <span >
+      N. M. Heming</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 1, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2023-08-01_two_centuries_of_orn/" >Two centuries of ornithological exploration of the Rio Doce basin, southeastern Brazil. Part I – A history of the landscape, its explorers, and their collections</a>
+    </div>
+
+    
+    <a href="/publication/2023-08-01_two_centuries_of_orn/"  class="summary-link">
+      <div class="article-style">
+        (Abstract not available)
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Leonardo E. Lopes</span>, <span >
+      M. N. M. Baptista</span>, <span >
+      J. N. Reis</span>, <span >
+      J. F. Pacheco</span>, <span >
+      N. M. Heming</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
   
     
 
@@ -1362,430 +1714,6 @@
     
   
 <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fevo.2022.987204/full" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2022-06-01_cabruca_agroforestry/" >Cabruca agroforestry systems reduce vulnerability of cacao plantations to climate change in southern Bahia</a>
-    </div>
-
-    
-    <a href="/publication/2022-06-01_cabruca_agroforestry/"  class="summary-link">
-      <div class="article-style">
-        In southern Bahia, Brazil’s traditional cacao region, cacao is mostly grown under the shade of thinned Atlantic Forest (known as …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Neander Marcel Heming</span>, <span >
-      Goetz Schroth</span>, <span >
-      Daniela C. Talora</span>, <span >
-      Deborah Faria</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s13593-022-00780-w" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2022-04-01_bamboo_shapes_the_fi/" >Bamboo shapes the fine-scale richness, abundance, and habitat use of small mammals in a forest fragment</a>
-    </div>
-
-    
-    <a href="/publication/2022-04-01_bamboo_shapes_the_fi/"  class="summary-link">
-      <div class="article-style">
-        A classic question in community ecology is how species coexist within a community. Studies have sought to understand how species …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Clariana Lima Andre</span>, <span >
-      Marina Correa Cortes</span>, <span >
-      Neander Marcel Heming</span>, <span >
-      Mauro Galetti</span>, <span >
-      Rafael Souza Cruz Alves</span>, <span >
-      Ricardo Siqueira Bovendorp</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s13364-021-00616-0" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2022-04-01_projected_responses_/" >Projected responses of Cerrado anurans to climate change are mediated by biogeographic character</a>
-    </div>
-
-    
-    <a href="/publication/2022-04-01_projected_responses_/"  class="summary-link">
-      <div class="article-style">
-        Climate change has affected the distribution and phenology of several species. However, due to narrow ecological and physiological …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Gabriela Alves-Ferreira</span>, <span >
-      Gaston Andres Fernandez Gine</span>, <span >
-      Danilo de Siqueira Fortunato</span>, <span >
-      Mirco Sole</span>, <span >
-      Neander Marcel Heming</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S2530064421000985" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/2020-12-01_the_five_million_bir/" >The five million bird eggs in the world’s museum collections are an invaluable and underused resource</a>
-    </div>
-
-    
-    <a href="/publication/2020-12-01_the_five_million_bir/"  class="summary-link">
-      <div class="article-style">
-        Abstract             The ~ 1.97 million egg sets (~ 5 million eggs) housed in museums have not been used in proportion to their …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Miguel Angelo Marini</span>, <span >
-      Linnea Hall</span>, <span >
-      John Bates</span>, <span >
-      Frank D Steinheimer</span>, <span >
-      Robert McGowan</span>, <span >
-      Luis Fabio Silveira</span>, <span >
-      Dario A Lijtmaer</span>, <span >
-      Pablo Luis Tubaro</span>, <span >
-      Sergio Cordoba-Cordoba</span>, <span >
-      Anita Gamauf</span>, <span >
-      Harold F Greeney</span>, <span >
-      Manuel Schweizer</span>, <span >
-      Pepijn Kamminga</span>, <span >
-      Alice Cibois</span>, <span >
-      Laurent Vallotton</span>, <span >
-      Douglas Russell</span>, <span >
-      Scott K Robinson</span>, <span >
-      Paul R Sweet</span>, <span >
-      Sylke Frahnert</span>, <span >
-      Rene Corado</span>, <span >
-      Neander Marcel Heming</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://academic.oup.com/auk/article/doi/10.1093/auk/ukaa036/5875937" target="_blank" rel="noopener">
   Source Document
 </a>
 

@@ -239,6 +239,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5P4X6150G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-Q5P4X6150G', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -1364,6 +1403,107 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/2022-12-01_climate_change_is_ex/" >Climate change is expected to restructure forest frugivorous bird communities in a biodiversity hot‐point within the Atlantic Forest</a>
+    </div>
+
+    
+    <a href="/publication/2022-12-01_climate_change_is_ex/"  class="summary-link">
+      <div class="article-style">
+        Aim Changes in climatic conditions are predicted to impact species distribution and hence alter their diversity patterns. Modifications …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Flavio Mariano Machado Mota</span>, <span >
+      Neander Marcel Heming</span>, <span >
+      Jose Carlos Morante-Filho</span>, <span >
+      Daniela Custodio Talora</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/10.1111/ddi.13602" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/publication/2022-06-01_cabruca_agroforestry/" >Cabruca agroforestry systems reduce vulnerability of cacao plantations to climate change in southern Bahia</a>
     </div>
 
@@ -1471,7 +1611,7 @@
     
     <a href="/publication/2020-12-01_the_five_million_bir/"  class="summary-link">
       <div class="article-style">
-        Abstract             The ~ 1.97 million egg sets (~ 5 million eggs) housed in museums have not been used in proportion to their …
+        The ~ 1.97 million egg sets (~ 5 million eggs) housed in museums have not been used in proportion to their availability. We highlight …
       </div>
     </a>
     
@@ -1827,6 +1967,121 @@
     
 
   <span >
+      Flavio M. M. Mota</span>, <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Daniela C. Talora</span>, <span >
+      N. M. Heming</span>
+  </span>
+  (2023).
+  <a href="/publication/2023-08-01_divraster_an_r_packa/">divraster: an R package to calculate taxonomic, functional and phylogenetic diversity from rasters</a>.
+  Ecography, In Press.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Leonardo E. Lopes</span>, <span >
+      M. N. M. Baptista</span>, <span >
+      J. N. Reis</span>, <span >
+      J. F. Pacheco</span>, <span >
+      N. M. Heming</span>
+  </span>
+  (2023).
+  <a href="/publication/2023-08-01_two_centuries_of_orn/">Two centuries of ornithological exploration of the Rio Doce basin, southeastern Brazil. Part I – A history of the landscape, its explorers, and their collections</a>.
+  Zootaxa, In Press.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
       Miguel Angelo Marini</span>, <span >
       Marcelo Assis</span>, <span >
       Nadinni Oliveira De Matos Sousa</span>, <span >
@@ -2020,137 +2275,6 @@
 </div>
 
   
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Flavio Mariano Machado Mota</span>, <span >
-      Neander Marcel Heming</span>, <span >
-      Jose Carlos Morante-Filho</span>, <span >
-      Daniela Custodio Talora</span>
-  </span>
-  (2022).
-  <a href="/publication/2022-12-01_climate_change_is_ex/">Climate change is expected to restructure forest frugivorous bird communities in a biodiversity hot‐point within the Atlantic Forest</a>.
-  Diversity and Distributions, 28(12) 2886&ndash;2897. <a href="https://doi.org/10.1111/ddi.13602" target="_blank" rel="noopener">https://doi.org/10.1111/ddi.13602</a>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/10.1111/ddi.13602" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-</p>
-
-  
-  
-</div>
-
-  
-    
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
-    
-
-  <span >
-      Gabriela Alves-Ferreira</span>, <span >
-      Daniela C. Talora</span>, <span >
-      Mirco Sole</span>, <span >
-      Martin J. Cervantes-Lopez</span>, <span >
-      Neander M. Heming</span>
-  </span>
-  (2022).
-  <a href="/publication/2022-11-01_unraveling_global_im/">Unraveling global impacts of climate change on amphibians distributions: A life-history and biogeographic-based approach</a>.
-  Frontiers in Ecology and Evolution, 10 987237. <a href="https://doi.org/10.3389/fevo.2022.987237" target="_blank" rel="noopener">https://doi.org/10.3389/fevo.2022.987237</a>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/articles/10.3389/fevo.2022.987237/full" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-</p>
-
-  
-  
-</div>
-
-  
 
   
   
@@ -2176,6 +2300,268 @@
         <i class="fas fa-angle-right"></i>
       </a>
     </div>
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="review" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  ">
+    
+      
+        <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">Publications Under Review</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      N. M. Heming</span>, <span >
+      Rebeca F. Sampaio</span>, <span >
+      Fernanda A. Gaiotto</span>, <span >
+      Ricardo S. Bovendorp</span>
+  </span>
+  (2023).
+  <a href="/publication-in-review/2023-08-01_how_land-use_and_bio/">How land-use and bioclimatic factors are shaping small mammal communities in the Atlantic Forest?</a>.
+  Diversity, Under Review.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Flavio M. M. Mota</span>, <span >
+      Daniela C. Talora</span>, <span >
+      N. M. Heming</span>
+  </span>
+  (2023).
+  <a href="/publication-in-review/2023-08-01_phyloraster_an_r_pac/">phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</a>.
+  Ecography, Under Review.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+  
+
+  
+  
   
 
 </div>
