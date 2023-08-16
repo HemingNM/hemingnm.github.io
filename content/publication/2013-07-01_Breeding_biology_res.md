@@ -1,6 +1,6 @@
 +++
 title = "Breeding biology research and data availability for New World Flycatchers"
-date = "2013-01-01"
+date = "2013-07-01"
 authors = ["Neander M. Heming", "Harold F. Greeney", "Miguel A. Marini"]
 publication_types = ["2"]
 publication = "Natureza & Conservação, 11(1) 54--58. https://doi.org/10.4322/natcon.2013.009"

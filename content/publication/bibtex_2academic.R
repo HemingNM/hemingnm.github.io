@@ -228,8 +228,9 @@ bibtex_2academic(bibfile  = my_bibfile,
 mds <- list.files(out_fold, pattern = ".md", full.names = T)[-1]
 
 featured <- c("2015-07-01_Ecological_and_envir",
+              "2020-12-01_The_five_million_bir",
               "2022-06-01_Cabruca_agroforestry",
-              "2020-12-01_The_five_million_bir")
+              "2022-12-01_Climate_change_is_ex")
 
 add_featured <- function(featured, mds){
   for(i in seq_along(featured)){
