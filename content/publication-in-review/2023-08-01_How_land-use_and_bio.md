@@ -1,5 +1,5 @@
 +++
-title = "How land-use and bioclimatic factors are shaping small mammal com- munities in the Atlantic Forest?"
+title = "How land-use and bioclimatic factors are shaping small mammal communities in the Atlantic Forest?"
 date = "2023-08-01"
 authors = ["N. M. Heming", "Rebeca F. Sampaio", "Fernanda A. Gaiotto", "Ricardo S. Bovendorp"]
 publication_types = ["2"]
