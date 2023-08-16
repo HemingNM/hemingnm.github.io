@@ -36,12 +36,18 @@ bibtex_2academic <- function(bibfile,
     )
     
     #add line breaks for the different entries
+    # it is generating a vector of NAs in the console
     mypubs$annotation<-cat(stri_wrap(mypubs$annotation, whitespace_only = TRUE))
   # }
   
     mypubs$abstract<- gsub(
       pattern = ('\\\\'),
       replacement = '',
+      x = mypubs$abstract
+    )
+    mypubs$abstract<- gsub(
+      pattern = ('textasciitilde'),
+      replacement = "~",
       x = mypubs$abstract
     )
 
@@ -96,8 +102,9 @@ bibtex_2academic <- function(bibfile,
   create_md <- function(x) {
 
     # define a date and create filename by appending date and start of title
+    x[["month"]][is.na(x[["month"]])] <- "jan"
     if (!is.na(x[["year"]])) {
-      x[["date"]] <- paste0(x[["year"]], "-01-01")
+      x[["date"]] <- paste0(x[["year"]], "-", sprintf("%02d", match(x[["month"]], tolower(month.abb))), "-01")
     } else {
       x[["date"]] <- "2999-01-01"
     }
@@ -216,3 +223,21 @@ bibtex_2academic(bibfile  = my_bibfile,
                   outfold   = out_fold,
                   abstract  = TRUE,
                   overwrite = TRUE)
+
+### featured publications
+mds <- list.files(out_fold, pattern = ".md", full.names = T)[-1]
+
+featured <- c("2015-07-01_Ecological_and_envir",
+              "2022-06-01_Cabruca_agroforestry",
+              "2020-12-01_The_five_million_bir")
+
+add_featured <- function(featured, mds){
+  for(i in seq_along(featured)){
+    fileConn <- mds[grep(featured[i], mds)]
+    tx  <- readLines(fileConn)
+    tx <- c(tx[1:grep("selected = false", tx)], "featured = true", 
+            tx[(grep("selected = false", tx)+1):length(tx)])
+    write(tx, fileConn)
+  }
+}
+add_featured(featured, mds)
