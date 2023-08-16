@@ -13,7 +13,8 @@ bibtex_2academic <- function(bibfile,
     as.data.frame()
 
    
-  for(i in c("annotation", "editor", "booktitle", "type", "address", "institution", "publisher", "isbn")){
+  for(i in c("annotation", "editor", "booktitle", "type", "address", "institution", "publisher", "isbn", 
+             "number", "pages", "doi", "abstract", "url", "keywords")){
     if(isFALSE(i %in% colnames(mypubs))) {
       mypubs[,i] <- NA
     }
@@ -23,6 +24,7 @@ bibtex_2academic <- function(bibfile,
       mutate(mainref = journal)
   mypubs$mainref <- mypubs$mainref %>% replace_na('') #otherwise it appears "NA" in post
 
+  mypubs$abstract <- as.character(mypubs$abstract)
   mypubs$abstract <- mypubs$abstract %>% replace_na('(Abstract not available)') #otherwise it appears "NA" in post
 #  mypubs$annotation <- mypubs$annotation %>% replace_na('image_preview = ""') #otherwise
   # Customize Zotero extra field (here "annotation") in order to leave there the additional information for the md file
@@ -40,17 +42,19 @@ bibtex_2academic <- function(bibfile,
     mypubs$annotation<-cat(stri_wrap(mypubs$annotation, whitespace_only = TRUE))
   # }
   
-    mypubs$abstract<- gsub(
-      pattern = ('\\\\'),
-      replacement = '',
-      x = mypubs$abstract
-    )
-    mypubs$abstract<- gsub(
-      pattern = ('textasciitilde'),
-      replacement = "~",
-      x = mypubs$abstract
-    )
-
+    if(!all(is.na(mypubs$abstract))){
+      mypubs$abstract <- gsub(
+        pattern = ('\\\\'),
+        replacement = '',
+        x = mypubs$abstract
+      )
+      mypubs$abstract<- gsub(
+        pattern = ('textasciitilde'),
+        replacement = "~",
+        x = mypubs$abstract
+      )
+    }
+    
     mypubs$mainref<- gsub(
       pattern = ('\\\\'),
       replacement = '',
@@ -72,11 +76,13 @@ bibtex_2academic <- function(bibfile,
 
 
     # add characters between tags for properly render
-    mypubs$keywords<- gsub(
-      pattern = (','),
-      replacement = '","',
-      x = mypubs$keywords
-    )
+      if(!all(is.na(mypubs$keywords))){
+        mypubs$keywords<- gsub(
+          pattern = (','),
+          replacement = '","',
+          x = mypubs$keywords
+        )
+      }
 
   # assign "categories" to the different types of publications
   mypubs   <- mypubs %>%
@@ -217,13 +223,22 @@ bibtex_2academic <- function(bibfile,
 
 # Running the function
 
-my_bibfile <- "content/publication/nmh-publications.bib"
-out_fold   <- "content/publication"
+my_bibfile <- "content/publication-in-review/nmh-publications-review.bib"
+out_fold   <- "content/publication-in-review"
 bibtex_2academic(bibfile  = my_bibfile,
                   outfold   = out_fold,
                   abstract  = TRUE,
                   overwrite = TRUE)
 
+
+##
+
+my_bibfile <- "content/publication/nmh-publications.bib"
+out_fold   <- "content/publication"
+bibtex_2academic(bibfile  = my_bibfile,
+                 outfold   = out_fold,
+                 abstract  = TRUE,
+                 overwrite = TRUE)
 ### featured publications
 mds <- list.files(out_fold, pattern = ".md", full.names = T)[-1]
 

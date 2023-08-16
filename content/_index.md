@@ -49,7 +49,18 @@ sections:
   design:
     columns: "2"
     view: citation
-
+- block: collection
+  content:
+    filters:
+      featured_only: false
+      folders:
+      - publication-in-review
+    title: Publications Under Review
+  design:
+    columns: "2"
+    view: citation
+  id: review
+  
 - block: portfolio
   content:
     buttons:
