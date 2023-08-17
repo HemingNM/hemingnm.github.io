@@ -33,7 +33,7 @@ sections:
     title: Featured Publications
   design:
     columns: "2"
-    view: compact
+    view: list
   id: featured
 - block: collection
   content:
@@ -41,14 +41,10 @@ sections:
       exclude_featured: true
       folders:
       - publication
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
     title: Recent Publications
   design:
     columns: "2"
-    view: citation
+    view: list
 - block: collection
   content:
     filters:
