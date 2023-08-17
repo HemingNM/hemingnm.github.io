@@ -53,7 +53,21 @@ bibtex_2academic <- function(bibfile,
         replacement = "~",
         x = mypubs$abstract
       )
+      
+      # mypubs$abstract<- gsub(
+      #   pattern = ('emph'),
+      #   replacement = "textit",
+      #   x = mypubs$abstract,
+      #   fixed = F
+      # )
     }
+    
+    # mypubs$title<- gsub(
+    #   pattern = ('emph'),
+    #   replacement = "textit",
+    #   x = mypubs$title,
+    #   fixed = F
+    # )
     
     mypubs$mainref<- gsub(
       pattern = ('\\\\'),

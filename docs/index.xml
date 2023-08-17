@@ -74,6 +74,14 @@
     </item>
     
     <item>
+      <title>Conservation of the Endangered Crested Capuchin Monkey ({mph{Sapajus robustus}}) Under Climate Change and Habitat Loss</title>
+      <link>https://hemingnm.github.io/publication-in-review/2023-06-01_conservation_of_the_/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication-in-review/2023-06-01_conservation_of_the_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Oological collections and egg collectors of Brazilian birds: an overview</title>
       <link>https://hemingnm.github.io/publication/2023-06-01_oological_collection/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
@@ -88,6 +96,14 @@
       <guid>https://hemingnm.github.io/software/phyloraster/</guid>
       <description>&lt;p&gt;Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Review of the breeding biology of Rufous Crab-hawk {mph{Buteogallus aequinoctialis}} across its distribution</title>
+      <link>https://hemingnm.github.io/publication-in-review/2023-06-01_review_of_the_breedi/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication-in-review/2023-06-01_review_of_the_breedi/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -457,7 +473,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-294365817&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-542813769&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -467,7 +483,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-294365817&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-542813769&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
