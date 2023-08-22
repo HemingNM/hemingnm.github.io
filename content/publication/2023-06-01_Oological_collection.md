@@ -1,7 +1,7 @@
 +++
 title = "Oological collections and egg collectors of Brazilian birds: an overview"
 date = "2023-06-01"
-authors = ["Miguel Angelo Marini", "Marcelo Assis", "Nadinni Oliveira De Matos Sousa", "Leonardo Esteves Lopes", "Neander Marcel Heming"]
+authors = ["Miguel Angelo Marini", "Marcelo Assis", "Nadinni Oliveira De Matos Sousa", "Leonardo Esteves Lopes", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "Arquivos de Zoologia, 54(1) 1--14. https://doi.org/10.11606/2176-7793/2023.54.01"
 publication_short = "Arquivos de Zoologia, 54(1) 1--14. https://doi.org/10.11606/2176-7793/2023.54.01"

@@ -1,7 +1,7 @@
 +++
 title = "Predação oportunística de passeriforme em rede-de-neblina por indivíduo de {\emph{Rupornis magnirostris}} (Falconiformes: Accipitridae)"
 date = "2009-01-01"
-authors = ["Alexandre Curcino", "Neander Heming", "Alcimara Feraboli"]
+authors = ["Alexandre Curcino", "Neander M. Heming", "Alcimara Feraboli"]
 publication_types = ["2"]
 publication = "Atualidades Ornitológicas, 151 22."
 publication_short = "Atualidades Ornitológicas, 151 22."

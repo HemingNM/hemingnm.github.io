@@ -1,7 +1,7 @@
 +++
 title = "Breeding in the gray-headed tody-flycatcher (Aves: Tyrannidae) with comments on geographical variation in reproductive traits within the genus {\emph{Todirostrum}}"
 date = "2019-03-01"
-authors = ["Dalila de Fatima Ferreira", "Marla Mendes {de Aquino}", "Neander Marcel Heming", "Miguel Angelo Marini", "Felipe Sa Fortes Leite", "Leonardo Esteves Lopes"]
+authors = ["Dalila de Fatima Ferreira", "Marla Mendes {\noopsortaquinode Aquino}", "Neander M. Heming", "Miguel Angelo Marini", "Felipe Sa Fortes Leite", "Leonardo Esteves Lopes"]
 publication_types = ["2"]
 publication = "Journal of Natural History, 53(9-10) 595--610. Taylor and Francis https://doi.org/10.1080/00222933.2019.1599458"
 publication_short = "Journal of Natural History, 53(9-10) 595--610. Taylor and Francis https://doi.org/10.1080/00222933.2019.1599458"

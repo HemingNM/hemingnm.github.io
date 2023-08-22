@@ -1,7 +1,7 @@
 +++
 title = "Amount of bird suitable areas under climate change is modulated by morphological, ecological and geographical traits"
 date = "2022-09-01"
-authors = ["Flavio Mariano Machado Mota", "Neander Marcel Heming", "Jose Carlos Morante-Filho", "Daniela Custodio Talora"]
+authors = ["Flavio Mariano Machado Mota", "Neander M. Heming", "Jose Carlos Morante-Filho", "Daniela Custodio Talora"]
 publication_types = ["2"]
 publication = "Frontiers in Ecology and Evolution, 10 987204. https://doi.org/10.3389/fevo.2022.987204"
 publication_short = "Frontiers in Ecology and Evolution, 10 987204. https://doi.org/10.3389/fevo.2022.987204"

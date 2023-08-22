@@ -1,7 +1,7 @@
 +++
 title = "Breeding of the Greenish Schiffornis ({\emph{Schiffornis virescens}}, Tityridae)"
 date = "2017-12-01"
-authors = ["Miguel Angelo Marini", "Neander Marcel Heming"]
+authors = ["Miguel Angelo Marini", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "Revista Brasileira de Ornitologia, 25(4) 269--272. https://doi.org/10.1007/BF03544406"
 publication_short = "Revista Brasileira de Ornitologia, 25(4) 269--272. https://doi.org/10.1007/BF03544406"

@@ -1,7 +1,7 @@
 +++
 title = "Characterization of the microbiota dynamics associated with Moniliophthora roreri, causal agent of cocoa frosty pod rot disease, reveals new viral species"
 date = "2023-02-01"
-authors = ["Brayan Maudiel Diaz Reyes", "Paula Luize Camargos Fonseca", "Neander Marcel Heming", "Lucas Barbosa De Amorim Conceicao", "Katiucia Ticila De Souza Nascimento", "Karina Peres Gramacho", "Enrique Arevalo-Gardini", "Carlos Priminho Pirovani", "Eric Roberto Guimaraes Rocha Aguiar"]
+authors = ["Brayan Maudiel Diaz Reyes", "Paula Luize Camargos Fonseca", "Neander M. Heming", "Lucas Barbosa De Amorim Conceicao", "Katiucia Ticila De Souza Nascimento", "Karina Peres Gramacho", "Enrique Arevalo-Gardini", "Carlos Priminho Pirovani", "Eric Roberto Guimaraes Rocha Aguiar"]
 publication_types = ["2"]
 publication = "Frontiers in Microbiology, 13 1053562. https://doi.org/10.3389/fmicb.2022.1053562"
 publication_short = "Frontiers in Microbiology, 13 1053562. https://doi.org/10.3389/fmicb.2022.1053562"

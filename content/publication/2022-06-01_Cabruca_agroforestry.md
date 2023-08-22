@@ -1,7 +1,7 @@
 +++
 title = "Cabruca agroforestry systems reduce vulnerability of cacao plantations to climate change in southern Bahia"
 date = "2022-06-01"
-authors = ["Neander Marcel Heming", "Goetz Schroth", "Daniela C. Talora", "Deborah Faria"]
+authors = ["Neander M. Heming", "Goetz Schroth", "Daniela C. Talora", "Deborah Faria"]
 publication_types = ["2"]
 publication = "Agronomy for Sustainable Development, 42(3) 48. https://doi.org/10.1007/s13593-022-00780-w"
 publication_short = "Agronomy for Sustainable Development, 42(3) 48. https://doi.org/10.1007/s13593-022-00780-w"

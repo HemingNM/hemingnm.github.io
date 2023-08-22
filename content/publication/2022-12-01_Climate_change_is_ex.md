@@ -1,7 +1,7 @@
 +++
 title = "Climate change is expected to restructure forest frugivorous bird communities in a biodiversity hot‐point within the Atlantic Forest"
 date = "2022-12-01"
-authors = ["Flavio Mariano Machado Mota", "Neander Marcel Heming", "Jose Carlos Morante-Filho", "Daniela Custodio Talora"]
+authors = ["Flavio Mariano Machado Mota", "Neander M. Heming", "Jose Carlos Morante-Filho", "Daniela Custodio Talora"]
 publication_types = ["2"]
 publication = "Diversity and Distributions, 28(12) 2886--2897. https://doi.org/10.1111/ddi.13602"
 publication_short = "Diversity and Distributions, 28(12) 2886--2897. https://doi.org/10.1111/ddi.13602"

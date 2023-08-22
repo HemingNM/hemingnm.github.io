@@ -1,7 +1,7 @@
 +++
 title = "The five million bird eggs in the world’s museum collections are an invaluable and underused resource"
 date = "2020-12-01"
-authors = ["Miguel Angelo Marini", "Linnea Hall", "John Bates", "Frank D Steinheimer", "Robert McGowan", "Luis Fabio Silveira", "Dario A Lijtmaer", "Pablo Luis Tubaro", "Sergio Cordoba-Cordoba", "Anita Gamauf", "Harold F Greeney", "Manuel Schweizer", "Pepijn Kamminga", "Alice Cibois", "Laurent Vallotton", "Douglas Russell", "Scott K Robinson", "Paul R Sweet", "Sylke Frahnert", "Rene Corado", "Neander Marcel Heming"]
+authors = ["Miguel Angelo Marini", "Linnea Hall", "John Bates", "Frank D Steinheimer", "Robert McGowan", "Luis Fabio Silveira", "Dario A Lijtmaer", "Pablo Luis Tubaro", "Sergio Cordoba-Cordoba", "Anita Gamauf", "Harold F Greeney", "Manuel Schweizer", "Pepijn Kamminga", "Alice Cibois", "Laurent Vallotton", "Douglas Russell", "Scott K Robinson", "Paul R Sweet", "Sylke Frahnert", "Rene Corado", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "The Auk, 137(4) ukaa036. https://doi.org/10.1093/auk/ukaa036"
 publication_short = "The Auk, 137(4) ukaa036. https://doi.org/10.1093/auk/ukaa036"

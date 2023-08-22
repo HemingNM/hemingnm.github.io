@@ -57,7 +57,7 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: Neander Marcel Heming
+title: Neander M Heming
 ---
 
 My research interests include the effects of global warming on the distribution and conservation of organisms, methodological aspects of ecological niche modeling, and how ecological and environmental processes affect bird life histories. Methods include ecological niche models, R stats, R programming, spatial analyses. Currently working on threats that climate change poses to the biodiversity of cabrucas (traditional cocoa agroforests) of southern Bahia and how cabrucas can mitigate impacts of a warming climate.

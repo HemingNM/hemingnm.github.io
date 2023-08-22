@@ -1,7 +1,7 @@
 +++
 title = "Bottom-up effect: a rodent outbreak following the bamboo blooming in a Neotropical rainforest"
 date = "2020-07-01"
-authors = ["Ricardo Siqueira Bovendorp", "Neander Marcel Heming", "Alexandre Reis Percequillo"]
+authors = ["Ricardo Siqueira Bovendorp", "Neander M. Heming", "Alexandre Reis Percequillo"]
 publication_types = ["2"]
 publication = "Mammal Research, 65(3) 535--543. https://doi.org/10.1007/s13364-020-00505-y"
 publication_short = "Mammal Research, 65(3) 535--543. https://doi.org/10.1007/s13364-020-00505-y"

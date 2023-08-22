@@ -1,7 +1,7 @@
 +++
 title = "Breeding biology of the White-throated Kingbird ({\emph{Tyrannus albogularis}}) in Brazil and Bolivia"
 date = "2018-12-01"
-authors = ["Leonardo Esteves Lopes", "Neander Marcel Heming", "Alex E. Jahn", "Dalila De Fatima Ferreira", "Omar Barroso Putare", "Miguel Angelo Marini"]
+authors = ["Leonardo Esteves Lopes", "Neander M. Heming", "Alex E. Jahn", "Dalila De Fatima Ferreira", "Omar Barroso Putare", "Miguel Angelo Marini"]
 publication_types = ["2"]
 publication = "The Wilson Journal of Ornithology, 130(4) 915--923. https://doi.org/10.1676/1559-4491.130.4.915"
 publication_short = "The Wilson Journal of Ornithology, 130(4) 915--923. https://doi.org/10.1676/1559-4491.130.4.915"

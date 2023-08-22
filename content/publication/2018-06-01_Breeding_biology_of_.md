@@ -1,7 +1,7 @@
 +++
 title = "Breeding biology of Neotropical Accipitriformes: current knowledge and research priorities"
 date = "2018-06-01"
-authors = ["Julio Amaro Betto Monsalvo", "Neander Marcel Heming", "Miguel Angelo Marini"]
+authors = ["Julio Amaro Betto Monsalvo", "Neander M. Heming", "Miguel Angelo Marini"]
 publication_types = ["2"]
 publication = "Revista Brasileira de Ornitologia, 26(2) 151--186. https://doi.org/10.1007/BF03544426"
 publication_short = "Revista Brasileira de Ornitologia, 26(2) 151--186. https://doi.org/10.1007/BF03544426"

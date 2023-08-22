@@ -1,7 +1,7 @@
 +++
 title = "Projected responses of Cerrado anurans to climate change are mediated by biogeographic character"
 date = "2022-04-01"
-authors = ["Gabriela Alves-Ferreira", "Gaston Andres Fernandez Gine", "Danilo de Siqueira Fortunato", "Mirco Sole", "Neander Marcel Heming"]
+authors = ["Gabriela Alves-Ferreira", "Gaston Andres Fernandez Gine", "Danilo de Siqueira Fortunato", "Mirco Sole", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "Perspectives in Ecology and Conservation, 20(2) 126--131. https://doi.org/10.1016/j.pecon.2021.12.001"
 publication_short = "Perspectives in Ecology and Conservation, 20(2) 126--131. https://doi.org/10.1016/j.pecon.2021.12.001"

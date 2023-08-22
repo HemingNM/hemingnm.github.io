@@ -1,7 +1,7 @@
 +++
 title = "Bamboo shapes the fine-scale richness, abundance, and habitat use of small mammals in a forest fragment"
 date = "2022-04-01"
-authors = ["Clariana Lima Andre", "Marina Correa Cortes", "Neander Marcel Heming", "Mauro Galetti", "Rafael Souza Cruz Alves", "Ricardo Siqueira Bovendorp"]
+authors = ["Clariana Lima Andre", "Marina Correa Cortes", "Neander M. Heming", "Mauro Galetti", "Rafael Souza Cruz Alves", "Ricardo Siqueira Bovendorp"]
 publication_types = ["2"]
 publication = "Mammal Research, 67(2) 199--218. https://doi.org/10.1007/s13364-021-00616-0"
 publication_short = "Mammal Research, 67(2) 199--218. https://doi.org/10.1007/s13364-021-00616-0"

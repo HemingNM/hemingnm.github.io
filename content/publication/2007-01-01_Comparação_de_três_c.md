@@ -1,7 +1,7 @@
 +++
 title = "Comparação de três comunidades de aves na região de Niquelândia, GO"
 date = "2007-01-01"
-authors = ["Alexandre Curcino", "C. E. R. Sant'Ana", "Neander Marcel Heming"]
+authors = ["Alexandre Curcino", "C. E. R. Sant'Ana", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "Revista Brasileira de Ornitologia, 15(4) 574--584."
 publication_short = "Revista Brasileira de Ornitologia, 15(4) 574--584."

@@ -1,7 +1,7 @@
 +++
 title = "Climate change and its potential impact on the conservation of the Hoary Fox, {\emph{Lycalopex vetulus}} (Mammalia: Canidae)"
 date = "2019-09-01"
-authors = ["Eliecer E. Gutierrez", "Neander M. Heming", "Gabriel Penido", "Julio C. Dalponte", "Ana Cristyna Reis Lacerda", "Ricardo Moratelli", "Jamile de Moura Bubadue", "Leonardo Henrique {da Silva}", "Mariana M. Wolf", "Jader Marinho-Filho"]
+authors = ["Eliecer E. Gutierrez", "Neander M. Heming", "Gabriel Penido", "Julio C. Dalponte", "Ana Cristyna Reis Lacerda", "Ricardo Moratelli", "Jamile de Moura Bubadue", "Leonardo Henrique {\noopsortsilvada Silva}", "Mariana M. Wolf", "Jader Marinho-Filho"]
 publication_types = ["2"]
 publication = "Mammalian Biology, 98 91--101. https://doi.org/10.1016/j.mambio.2019.08.002"
 publication_short = "Mammalian Biology, 98 91--101. https://doi.org/10.1016/j.mambio.2019.08.002"
