@@ -33,6 +33,14 @@
     </item>
     
     <item>
+      <title>Ameaças e estado de conservação de vertebrados terrestres da região cacaueira do sul da Bahia, Brasil</title>
+      <link>https://hemingnm.github.io/publication-in-review/2023-08-01_ameacas_e_estado_de_/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication-in-review/2023-08-01_ameacas_e_estado_de_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>divraster: an R package to calculate taxonomic, functional and phylogenetic diversity from rasters</title>
       <link>https://hemingnm.github.io/publication/2023-08-01_divraster_an_r_packa/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
@@ -465,7 +473,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-723198564&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-893274156&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -475,7 +483,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-723198564&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-893274156&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
