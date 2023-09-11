@@ -106,9 +106,16 @@ sections:
 - block: tag_cloud
   content:
     title: Popular Topics
+    # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
+    taxonomy: tags
+    # Choose how many tags you would like to display (0 = all tags)
+    count: 30
   design:
     columns: "2"
-    
+    # Minimum and maximum font sizes (1.0 = 100%).
+    font_size_min: 0.9
+    font_size_max: 3.0
+      
 - block: contact
   content:
     address:
