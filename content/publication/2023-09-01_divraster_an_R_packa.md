@@ -1,6 +1,6 @@
 +++
 title = "divraster: an R package to calculate taxonomic, functional and phylogenetic diversity from rasters"
-date = "2023-08-01"
+date = "2023-09-01"
 authors = ["Flavio M. M. Mota", "Gabriela Alves-Ferreira", "Daniela C. Talora", "Neander M. Heming"]
 publication_types = ["2"]
 publication = "Ecography e06905. https://doi.org/10.1111/ecog.06905"

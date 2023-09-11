@@ -12,7 +12,6 @@ tags = ["avian","community structure","conservation strategies","diversity patte
 url_code = ""
 image_preview = ""
 selected = false
-featured = true
 projects = []
 url_pdf = ""
 url_preprint = ""
