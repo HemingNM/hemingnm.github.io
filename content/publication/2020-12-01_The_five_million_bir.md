@@ -11,6 +11,7 @@ url_source = "https://academic.oup.com/auk/article/doi/10.1093/auk/ukaa036/58759
 url_code = ""
 image_preview = ""
 selected = false
+featured = true
 projects = []
 url_pdf = ""
 url_preprint = ""

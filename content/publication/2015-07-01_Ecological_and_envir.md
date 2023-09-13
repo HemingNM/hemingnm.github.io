@@ -11,6 +11,7 @@ url_source = "https://onlinelibrary.wiley.com/doi/10.1111/jav.00629"
 url_code = ""
 image_preview = ""
 selected = false
+featured = true
 projects = []
 url_pdf = ""
 url_preprint = ""
