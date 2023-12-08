@@ -4,5 +4,5 @@ header:
   caption: ""
   image: ""
 title: Publications Under Review
-view: 4
+view: 3
 ---
