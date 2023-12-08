@@ -1,7 +1,7 @@
 +++
 title = "Breeding biology of mimetic species based on secondary data sources should address misidentifications: the case of the Lesser Kiskadee {\emph{Philohydor lictor}} (Aves: Tyrannidae)"
 date = "2023-10-01"
-authors = ["Tatiane Lima da Silva", "Neander M. Heming", "Miguel A. Marini"]
+authors = ["Tatiane Lima {\noopsortsilvada Silva}", "Neander M. Heming", "Miguel A. Marini"]
 publication_types = ["2"]
 publication = "Journal of Natural History, Under Review"
 publication_short = "Journal of Natural History, Under Review"

@@ -67,6 +67,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -183,9 +186,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -315,12 +318,12 @@
 
   
 
-<meta name="description" content="Learn how to blog in Academic using Jupyter notebooks" />
+<meta name="description" content="(Abstract not available)" />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://hemingnm.github.io/post/jupyter/" />
-<link rel="canonical" href="https://hemingnm.github.io/post/jupyter/" />
+<link rel="alternate" hreflang="en-us" href="https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/" />
+<link rel="canonical" href="https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/" />
 
 
 
@@ -343,30 +346,31 @@
 
 
   
+  
 
 
 
 
 
 
-<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:card" content="summary" />
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://hemingnm.github.io/post/jupyter/featured.png" />
+<meta property="twitter:image" content="https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Neander M Heming" />
-<meta property="og:url" content="https://hemingnm.github.io/post/jupyter/" />
-<meta property="og:title" content="Display Jupyter Notebooks with Academic | Neander M Heming" />
-<meta property="og:description" content="Learn how to blog in Academic using Jupyter notebooks" /><meta property="og:image" content="https://hemingnm.github.io/post/jupyter/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/" />
+<meta property="og:title" content="phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters | Neander M Heming" />
+<meta property="og:description" content="(Abstract not available)" /><meta property="og:image" content="https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2019-02-05T00:00:00&#43;00:00"
+      content="2023-12-01T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2019-09-05T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-12-01T00:00:00&#43;00:00">
   
 
 
@@ -381,31 +385,25 @@
 
 
 
-  
-
 
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hemingnm.github.io/post/jupyter/"
+    "@id": "https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/"
   },
-  "headline": "Display Jupyter Notebooks with Academic",
+  "headline": "phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters",
   
-  "image": [
-    "https://hemingnm.github.io/post/jupyter/featured.png"
-  ],
-  
-  "datePublished": "2019-02-05T00:00:00Z",
-  "dateModified": "2019-09-05T00:00:00Z",
+  "datePublished": "2023-12-01T00:00:00Z",
+  "dateModified": "2023-12-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Neander M Heming"
+    "name": "Gabriela Alves-Ferreira"
   },
   
   "publisher": {
@@ -416,7 +414,7 @@
       "url": "https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Learn how to blog in Academic using Jupyter notebooks"
+  "description": "(Abstract not available)"
 }
 </script>
 
@@ -438,7 +436,7 @@
 
 
   
-  <title>Display Jupyter Notebooks with Academic | Neander M Heming</title>
+  <title>phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters | Neander M Heming</title>
 
   
   
@@ -458,7 +456,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6e929dc84ed3ef80467b02e64cd2ed64" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c1e0cdc7675313eeab3fa53664cae7fe" >
 
   
   
@@ -813,7 +811,16 @@
     
     
 
-    <article class="article">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -829,27 +836,18 @@
 
 
 
-
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
-  <h1>Display Jupyter Notebooks with Academic</h1>
+  <h1>phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</h1>
 
   
-  <p class="page-subtitle">Learn how to blog in Academic using Jupyter notebooks</p>
-  
 
   
+    
 
 
 <div class="article-metadata">
@@ -861,8 +859,11 @@
   <div>
     
 
-  <span class="author-highlighted">
-      Neander M Heming</span>
+  <span >
+      Gabriela Alves-Ferreira</span>, <span >
+      Flavio M. M. Mota</span>, <span >
+      Daniela C. Talora</span>, <span >
+      N. M. Heming</span>
   </div>
   
   
@@ -872,20 +873,13 @@
     
     
       
-          Last updated on
-      
     
-    Sep 5, 2019
+    December, 2023
   </span>
   
 
   
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
   
 
   
@@ -898,80 +892,60 @@
 
 </div>
 
-  
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
-  <div style="position: relative">
-    <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="313" alt="" class="featured-image">
     
-  </div>
+
+
+
+
+
+  
 </div>
 
 
 
   <div class="article-container">
 
-    <div class="article-style">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
-</span></span><span class="line"><span class="cl"><span class="n">Image</span><span class="p">(</span><span class="s1">&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">(Abstract not available)</p>
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Welcome to Academic!&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><pre><code>Welcome to Academic!
-</code></pre>
-<h2 id="install-python-and-jupyterlab">Install Python and JupyterLab</h2>
-<p><a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda</a> which includes Python 3 and JupyterLab.</p>
-<p>Alternatively, install JupyterLab with <code>pip3 install jupyterlab</code>.</p>
-<h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</h2>
-<p>Run the following commands in your Terminal, substituting <code>&lt;MY-WEBSITE-FOLDER&gt;</code> and <code>&lt;SHORT-POST-TITLE&gt;</code> with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl">jupyter lab index.ipynb
-</span></span></code></pre></div><p>The <code>jupyter</code> command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.</p>
-<h2 id="edit-your-post-metadata">Edit your post metadata</h2>
-<p>The first cell of your Jupter notebook will contain your post metadata (<a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter</a>).</p>
-<p>In Jupter, choose <em>Markdown</em> as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: My post&#39;s title
-</span></span><span class="line"><span class="cl">date: 2019-09-01
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># Put any other Academic metadata here...
-</span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Edit the metadata of your post, using the <a href="https://sourcethemes.com/academic/docs/managing-content" target="_blank" rel="noopener">documentation</a> as a guide to the available options.</p>
-<p>To set a <a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image</a>, place an image named <code>featured</code> into your post&rsquo;s folder.</p>
-<p>For other tips, such as using math, see the guide on <a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic</a>.</p>
-<h2 id="convert-notebook-to-markdown">Convert notebook to Markdown</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir<span class="o">=</span>.
-</span></span></code></pre></div><h2 id="example">Example</h2>
-<p>This post was created with Jupyter. The orginal files can be found at <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter</a></p>
-
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Ecography, in Press <a href="https://doi.org/10.1111/ecog.06902" target="_blank" rel="noopener">https://doi.org/10.1111/ecog.06902</a></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -996,7 +970,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F&amp;text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F&amp;text=phyloraster%3A&#43;an&#43;R&#43;package&#43;to&#43;calculate&#43;measures&#43;of&#43;endemism&#43;and&#43;evolutionary&#43;diversity&#43;for&#43;rasters" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1013,7 +987,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F&amp;t=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F&amp;t=phyloraster%3A&#43;an&#43;R&#43;package&#43;to&#43;calculate&#43;measures&#43;of&#43;endemism&#43;and&#43;evolutionary&#43;diversity&#43;for&#43;rasters" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1032,7 +1006,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Display%20Jupyter%20Notebooks%20with%20Academic&amp;body=https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=phyloraster%3A%20an%20R%20package%20to%20calculate%20measures%20of%20endemism%20and%20evolutionary%20diversity%20for%20rasters&amp;body=https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1049,7 +1023,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F&amp;title=phyloraster%3A&#43;an&#43;R&#43;package&#43;to&#43;calculate&#43;measures&#43;of&#43;endemism&#43;and&#43;evolutionary&#43;diversity&#43;for&#43;rasters" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1066,7 +1040,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic%20https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=phyloraster%3A&#43;an&#43;R&#43;package&#43;to&#43;calculate&#43;measures&#43;of&#43;endemism&#43;and&#43;evolutionary&#43;diversity&#43;for&#43;rasters%20https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1083,7 +1057,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhemingnm.github.io%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhemingnm.github.io%2Fpublication%2F2023-12-01_phyloraster_an_r_pac%2F&amp;title=phyloraster%3A&#43;an&#43;R&#43;package&#43;to&#43;calculate&#43;measures&#43;of&#43;endemism&#43;and&#43;evolutionary&#43;diversity&#43;for&#43;rasters" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1107,142 +1081,23 @@
 
 
 
+
   
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://hemingnm.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu003eddb36850657ef143942005c13d14_858670_270x270_fill_lanczos_center_3.png" alt="Neander M Heming"></a>
     
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://hemingnm.github.io/">Neander M Heming</a></h5>
-      <h6 class="card-subtitle">Post doc researcher</h6>
-      <p class="card-text">My research interests include the effects of global warming on the distribution and conservation of organisms.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/NeanderHeming" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/HemingNM/" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.researchgate.net/profile/Neander-Heming" target="_blank" rel="noopener">
-        <i class="fab fa-researchgate"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com.br/citations?user=mfRNtDkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://orcid.org/0000-0003-2461-5045" target="_blank" rel="noopener">
-        <i class="ai ai-orcid"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://lattes.cnpq.br/3185094096445587" target="_blank" rel="noopener">
-        <i class="ai ai-lattes"></i>
-      </a>
-    </li>
-  
-</ul>
 
-    </div>
-  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
 
 
   
@@ -1263,7 +1118,7 @@
 
 
   </div>
-</article>
+</div>
   </div>
 
   <div class="page-footer">

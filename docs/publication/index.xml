@@ -5,12 +5,20 @@
     <link>https://hemingnm.github.io/publication/</link>
       <atom:link href="https://hemingnm.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://hemingnm.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</title>
+      <link>https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2023-12-01_phyloraster_an_r_pac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Impacts of climate change and habitat loss on the distribution of the endangered crested capuchin monkey ({mph{Sapajus robustus}})</title>

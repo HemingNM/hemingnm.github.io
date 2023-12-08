@@ -1,10 +1,10 @@
 +++
 title = "phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters"
-date = "2023-08-01"
+date = "2023-12-01"
 authors = ["Gabriela Alves-Ferreira", "Flavio M. M. Mota", "Daniela C. Talora", "N. M. Heming"]
 publication_types = ["2"]
-publication = "Ecography, Under Review"
-publication_short = "Ecography, Under Review"
+publication = "Ecography, in Press https://doi.org/10.1111/ecog.06902"
+publication_short = "Ecography, in Press https://doi.org/10.1111/ecog.06902"
 abstract = "(Abstract not available)"
 abstract_short = ""
 url_code = ""
