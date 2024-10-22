@@ -13,7 +13,7 @@ links:
   icon_pack: fab
   name: see on GitHub
   url: https://github.com/gabferreira/phyloraster
-summary: Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters.
+summary: Phylogenetic indices (such as phylogenetic diversity (Faith 1992), phylogenetic endemism (Rosauer et al. 2009), and weighted endemism (Laffan et al., 2016)) for presence-absence rasters. ![](https://cranlogs.r-pkg.org/badges/grand-total/phyloraster?color=green)
 tags:
 - evolutionary
 - spatial

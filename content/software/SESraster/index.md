@@ -13,7 +13,7 @@ links:
   icon_pack: fab
   name: see on GitHub
   url: https://github.com/HemingNM/SESraster
-summary: Randomization of presence/absence species distribution raster data for calculating standardized effect sizes and testing null hypothesis. The randomization algorithms are based on classical algorithms for matrices (Gotelli 2000, doi:10.2307/177478) implemented for raster data.
+summary: Randomization of presence/absence species distribution raster data for calculating standardized effect sizes and testing null hypothesis. The randomization algorithms are based on classical algorithms for matrices (Gotelli 2000, doi:10.2307/177478) implemented for raster data. ![](https://cranlogs.r-pkg.org/badges/grand-total/SESraster?color=green)
 tags:
 - null models
 - spatial

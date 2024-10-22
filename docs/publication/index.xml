@@ -5,12 +5,60 @@
     <link>https://hemingnm.github.io/publication/</link>
       <atom:link href="https://hemingnm.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hemingnm.github.io/media/icon_huaef2ad94688fd2447c3a221aca1e1871_51350_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://hemingnm.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Clutch size but not egg size associates with migration distance in South American land birds</title>
+      <link>https://hemingnm.github.io/publication/2024-10-01_clutch_size_but_not_/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-10-01_clutch_size_but_not_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breeding biology of mimetic species based on secondary data sources should address misidentifications: the case of the lesser kiskadee Philohydor lictor (Aves: Tyrannidae)</title>
+      <link>https://hemingnm.github.io/publication/2024-08-01_breeding_biology_of_/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-08-01_breeding_biology_of_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of the breeding biology of rufous crab hawk Buteogallus aequinoctialis (Aves: Accipitridae) across its distribution</title>
+      <link>https://hemingnm.github.io/publication/2024-04-01_review_of_the_breedi/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-04-01_review_of_the_breedi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where could they go? Potential distribution of small mammals in the Caatinga under climate change scenarios</title>
+      <link>https://hemingnm.github.io/publication/2024-04-01_where_could_they_go/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-04-01_where_could_they_go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How forest amount and bioclimatic factors shape small mammal communities in Atlantic Forest fragments?</title>
+      <link>https://hemingnm.github.io/publication/2024-03-01_how_forest_amount_an/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-03-01_how_forest_amount_an/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>‘phyloraster&#39;: an R package to calculate measures of endemism and evolutionary diversity for rasters</title>
+      <link>https://hemingnm.github.io/publication/2024-01-01_phyloraster_an_r_p/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://hemingnm.github.io/publication/2024-01-01_phyloraster_an_r_p/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>phyloraster: an R package to calculate measures of endemism and evolutionary diversity for rasters</title>

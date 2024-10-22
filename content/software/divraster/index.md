@@ -13,7 +13,7 @@ links:
   icon_pack: fab
   name: see on GitHub
   url: https://github.com/flaviomoc/divraster
-summary: Alpha and beta calculations using rasters for taxonomic (TD), functional (FD), and phylogenetic (PD) dimensions. Spatial and temporal beta diversity can be partitioned into replacement and richness difference components. Functions to calculate standardized effect size for functional and phylogenetic alpha diversity and the average traits are available.
+summary: Alpha and beta calculations using rasters for taxonomic (TD), functional (FD), and phylogenetic (PD) dimensions. Spatial and temporal beta diversity can be partitioned into replacement and richness difference components. Functions to calculate standardized effect size for functional and phylogenetic alpha diversity and the average traits are available. ![](https://cranlogs.r-pkg.org/badges/grand-total/divraster?color=green)
 tags:
 - diversity
 - spatial
