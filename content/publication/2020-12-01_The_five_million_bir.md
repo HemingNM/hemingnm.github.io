@@ -12,7 +12,6 @@ url_code = ""
 image_preview = ""
 selected = false
 featured = true
-featured = true
 projects = []
 url_pdf = ""
 url_preprint = ""
